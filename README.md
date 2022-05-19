@@ -7,8 +7,6 @@ pub fn me() -> Programmer<'static> {
     Programmer {
         about_me: AboutMe::new()
             .name("Dinu Blanovschi")
-            .age(present - 2003)
-            .years_since_started_programming(present - 2016)
             .interest("Programming language implementation and tooling development")
             .interest("Game development")
             .links(|l| l.github("https://github.com/dnbln")),
