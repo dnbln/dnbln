@@ -16,7 +16,7 @@ jobs:
       - name: "Install rust"
         run: rustup update stable && rustup default stable
       - name: "Generate the contribution graph"
-        run: cargo run --release --bin generate-graph
+        run: cargo run
         working-directory: ./contrib-graph
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
