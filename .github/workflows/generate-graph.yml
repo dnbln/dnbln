@@ -1,0 +1,29 @@
+name: "Generate the contribution graph"
+
+on:
+  schedule:
+    - cron: "0 0 1 * *"
+    - cron: "0 0 13 * *"
+
+jobs:
+  generate:
+    name: "Generate the contribution graph"
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Checkout"
+        uses: actions/checkout@v2
+      - name: "Install rust"
+        run: rustup update stable && rustup default stable
+      - name: "Generate the contribution graph"
+        run: cargo run --release --bin generate-graph
+        working-directory: ./contrib-graph
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USERNAME: dnbln
+      - name: "Commit and push"
+        run: |
+          git config --local user.name "Dinu Blanovschi"
+          git config --local user.email "git@dnbln.dev"
+          git add contrib-graph/3d-contrib-plot.svg
+          git commit -m "Update the graph"
+          git push origin main

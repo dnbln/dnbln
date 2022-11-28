@@ -16,3 +16,5 @@ fun me() = me {
     }
 }
 ```
+
+![Contrib plot](contrib-graph/3d-contrib-plot.svg)
