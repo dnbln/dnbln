@@ -121,7 +121,7 @@ fn compile_calendar(calendar: &ContributionCalendar) -> (BTreeMap<i32, i32>, i32
     for (week_index, week) in calendar.weeks.iter().enumerate() {
         for day in &week.contribution_days {
             if day.contribution_count != 0 {
-                let key = (week_index as i32) * 7 + day.weekday as i32 - 1; // 1 is Monday
+                let key = (week_index as i32) * 7 + day.weekday as i32;
                 let value = day.contribution_count as i32;
                 result.insert(key, value);
 
