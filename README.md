@@ -7,6 +7,7 @@ fun me() = me {
     links {
         github = "https://github.com/dnbln"
         home = "https://dnbln.dev"
+        blog = "https://blog.dnbln.dev"
         mail = "mailto:git@dnbln.dev"
     }
 
