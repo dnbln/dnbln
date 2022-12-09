@@ -2,8 +2,7 @@ name: "Generate the contribution graph"
 
 on:
   schedule:
-    - cron: "0 1 * * *"
-    - cron: "0 13 * * *"
+    - cron: "0 22 * * *"
   workflow_dispatch:
 
 jobs:
@@ -23,6 +22,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_USERNAME: dnbln
+          FAIL_IF_ZERO: true
       - name: "Commit and push"
         run: |
           git config --local user.name "Dinu Blanovschi"
