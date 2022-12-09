@@ -8,6 +8,10 @@ const OUT_FILE_NAME: &'static str = "3d-contrib-plot.svg";
 const GITHUB_GRAPHQL: &str = "https://api.github.com/graphql";
 const GITHUB_TOKEN: &str = env!("GITHUB_TOKEN");
 const GITHUB_USERNAME: &str = env!("GITHUB_USERNAME");
+const FAIL_IF_ZERO: bool = match option_env!("FAIL_IF_ZERO") {
+    Some("") | Some("true") | Some("1") => true,
+    _ => false,
+};
 
 #[derive(Serialize, Deserialize)]
 struct ContributionCalendar {
@@ -126,6 +130,16 @@ fn compile_calendar(calendar: &ContributionCalendar) -> (BTreeMap<i32, i32>, i32
                 result.insert(key, value);
 
                 max = max.max(value);
+            }
+        }
+    }
+
+    if FAIL_IF_ZERO {
+        if let Some(week) = calendar.weeks.last() {
+            if let Some(day) = week.contribution_days.last() {
+                if day.contribution_count == 0 {
+                    panic!("No contributions in the last day");
+                }
             }
         }
     }
