@@ -32,6 +32,12 @@ jobs:
           base: header, activity, community, repositories, metadata
           base_indepth: yes
           config_timezone: Europe/Amsterdam
+          plugin_activity: yes
+          plugin_activity_days: 14
+          plugin_activity_filter: all
+          plugin_activity_limit: 5
+          plugin_activity_load: 300
+          plugin_activity_visibility: all
           plugin_calendar: yes
           plugin_calendar_limit: 1
           plugin_code: yes
@@ -67,19 +73,18 @@ jobs:
           plugin_lines_repositories_limit: 22
           plugin_lines_sections: base
           plugin_notable: yes
+          plugin_notable_filter: stars:>500
           plugin_notable_from: organization
           plugin_notable_indepth: yes
           plugin_notable_repositories: yes
           plugin_notable_self: yes
           plugin_notable_types: commit
-          plugin_projects: yes
-          plugin_projects_limit: 4
           plugin_repositories: yes
           plugin_repositories_featured: upsilon
           plugin_repositories_order: featured, pinned, starred, random
           plugin_repositories_pinned: 6
           plugin_rss: yes
-          plugin_rss_limit: 4
+          plugin_rss_limit: 10
           plugin_rss_source: https://blog.dnbln.dev/atom.xml
           plugin_stargazers: yes
           plugin_stargazers_charts: yes
