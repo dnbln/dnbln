@@ -177,7 +177,7 @@
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                         <path fill-rule="evenodd" d="M2.75 1.5a.25.25 0 00-.25.25v12.5c0 .138.112.25.25.25h10.5a.25.25 0 00.25-.25V4.664a.25.25 0 00-.073-.177l-2.914-2.914a.25.25 0 00-.177-.073H2.75zM1 1.75C1 .784 1.784 0 2.75 0h7.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0113.25 16H2.75A1.75 1.75 0 011 14.25V1.75zm7 1.5a.75.75 0 01.75.75v1.5h1.5a.75.75 0 010 1.5h-1.5v1.5a.75.75 0 01-1.5 0V7h-1.5a.75.75 0 010-1.5h1.5V4A.75.75 0 018 3.25zm-3 8a.75.75 0 01.75-.75h4.5a.75.75 0 010 1.5h-4.5a.75.75 0 01-.75-.75z"/>
                                     </svg>
-                                    186k added, 19.8k removed
+                                    210k added, 18.9k removed
                                 </div>
                             </section>
                             <section>
@@ -220,20 +220,20 @@
             </section>
             <section class="column">
                 <h3 class="field">Most used languages</h3>
-                <small>estimation from 16.3mb of code in 4153 edited files across 871 commits</small>
+                <small>estimation from 16.4mb of code in 4163 edited files across 872 commits</small>
                 <svg class="bar" xmlns="http://www.w3.org/2000/svg" width="460" height="8">
                     <mask id="languages-bar">
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="297.7955486167909" height="8" fill="#dea584"/>
-                    <rect mask="url(#languages-bar)" x="297.7955486167909" y="0" width="59.57232309987363" height="8" fill="#e34c26"/>
-                    <rect mask="url(#languages-bar)" x="357.36787171666447" y="0" width="38.91288951064898" height="8" fill="#ededed"/>
-                    <rect mask="url(#languages-bar)" x="396.28076122731346" y="0" width="35.727053653851634" height="8" fill="#A97BFF"/>
-                    <rect mask="url(#languages-bar)" x="432.0078148811651" y="0" width="11.141599770202149" height="8" fill="#f1e05a"/>
-                    <rect mask="url(#languages-bar)" x="443.14941465136724" y="0" width="9.448740972357745" height="8" fill="#7e7eff"/>
-                    <rect mask="url(#languages-bar)" x="452.59815562372495" y="0" width="3.751691141161225" height="8" fill="#ededed"/>
-                    <rect mask="url(#languages-bar)" x="456.3498467648862" y="0" width="3.650153235113755" height="8" fill="#ff3e00"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="297.4747944757893" height="8" fill="#dea584"/>
+                    <rect mask="url(#languages-bar)" x="297.4747944757893" y="0" width="59.44332695415745" height="8" fill="#e34c26"/>
+                    <rect mask="url(#languages-bar)" x="356.9181214299467" y="0" width="38.82862869112147" height="8" fill="#ededed"/>
+                    <rect mask="url(#languages-bar)" x="395.7467501210682" y="0" width="35.64969134902066" height="8" fill="#A97BFF"/>
+                    <rect mask="url(#languages-bar)" x="431.3964414700888" y="0" width="11.348459078948137" height="8" fill="#f1e05a"/>
+                    <rect mask="url(#languages-bar)" x="442.74490054903697" y="0" width="9.428280948241158" height="8" fill="#7e7eff"/>
+                    <rect mask="url(#languages-bar)" x="452.1731814972781" y="0" width="4.083251162546458" height="8" fill="#ff3e00"/>
+                    <rect mask="url(#languages-bar)" x="456.2564326598246" y="0" width="3.743567340175389" height="8" fill="#ededed"/>
                 </svg>
                 <div class="row fill-width">
                     <section>
@@ -245,8 +245,8 @@
                                 Rust
                             </div>
                             <small>
-                                <div>66.4k lines</div>
-                                <div>64.74%</div>
+                                <div>66.5k lines</div>
+                                <div>64.67%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -258,7 +258,7 @@
                             </div>
                             <small>
                                 <div>673 lines</div>
-                                <div>8.46%</div>
+                                <div>8.44%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -269,20 +269,20 @@
                                 JavaScript
                             </div>
                             <small>
-                                <div>821 lines</div>
-                                <div>2.42%</div>
+                                <div>896 lines</div>
+                                <div>2.47%</div>
                             </small>
                         </div>
                         <div class="field language details">
                             <div class="field">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                    <path fill="#ededed" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
+                                    <path fill="#ff3e00" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
                                 </svg>
-                                Java
+                                Svelte
                             </div>
                             <small>
-                                <div>739 lines</div>
-                                <div>0.82%</div>
+                                <div>809 lines</div>
+                                <div>0.89%</div>
                             </small>
                         </div>
                     </section>
@@ -296,7 +296,7 @@
                             </div>
                             <small>
                                 <div>7.71k lines</div>
-                                <div>12.95%</div>
+                                <div>12.92%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -308,7 +308,7 @@
                             </div>
                             <small>
                                 <div>6.76k lines</div>
-                                <div>7.77%</div>
+                                <div>7.75%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -326,13 +326,13 @@
                         <div class="field language details">
                             <div class="field">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                    <path fill="#ff3e00" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
+                                    <path fill="#ededed" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
                                 </svg>
-                                Svelte
+                                Java
                             </div>
                             <small>
-                                <div>733 lines</div>
-                                <div>0.79%</div>
+                                <div>739 lines</div>
+                                <div>0.81%</div>
                             </small>
                         </div>
                     </section>
@@ -482,7 +482,7 @@
                 <div class="row">
                     <ul class="facts">
                         <li>Uses spaces for indentation</li>
-                        <li>Has approximately 79.6 characters per line of code written</li>
+                        <li>Has approximately 79.2 characters per line of code written</li>
                         <li>Mostly pushes code around 17:00</li>
                         <li>Mostly active on Wednesday</li>
                     </ul>
@@ -2677,6 +2677,26 @@
                                 <div class="details">
                                     <div>on branch <span class="code">trunk</span></div>
                                     <div class="commit">
+                                        <div class="sha">#c264d94</div>
+                                        <div class="message">feat(client): basic `&lt;repo&gt;/blob/&lt;rev&gt;/&lt;path&gt;` route, able to display file contents</div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
+                                        Pushed 1 commit in
+                                        <span class="repo">dnbln/upsilon</span>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">trunk</span></div>
+                                    <div class="commit">
                                         <div class="sha">#1cc0942</div>
                                         <div class="message">feat(client): basic `&lt;repo&gt;/tree/&lt;rev&gt;/&lt;path&gt;` route, able to filter files from the path</div>
                                     </div>
@@ -2747,26 +2767,6 @@
                                 </div>
                             </section>
                         </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                                        Pushed 1 commit in
-                                        <span class="repo">dnbln/upsilon</span>
-                                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">trunk</span></div>
-                                    <div class="commit">
-                                        <div class="sha">#3002cc6</div>
-                                        <div class="message">chore: update deps and move all dependency declarations to `[workspace.dependencies]`</div>
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
                     </section>
                 </div>
             </section>
@@ -2790,7 +2790,7 @@
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 3 Mar 2023, 19:18:20 (timezone Europe/Amsterdam) with lowlighter/metrics@3.32.0</span>
+                <span>Last updated 3 Mar 2023, 20:11:50 (timezone Europe/Amsterdam) with lowlighter/metrics@3.32.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
