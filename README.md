@@ -17,5 +17,3 @@ fun me() = me {
     }
 }
 ```
-
-<img src="/github-metrics.svg" alt="Metrics">
