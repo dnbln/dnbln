@@ -3,6 +3,7 @@
 My name is Dinu Blanovschi. Currently I am:
 
 - a 3rd year CSE student at the TU Delft.
+- one of the sense & control engineers of [![@delft-hyperloop](delft-hyperloop.png)](https://github.com/delft-hyperloop).
 - an open source contributor, there's a chance you might find [my contributions](https://github.com/search?q=is%3Apr+author%3Adnbln) to a handful of Rust projects, IntelliJ plugins, libraries and such.
 - interested in:
     - [λ](https://en.wikipedia.org/wiki/Programming_language_theory)
