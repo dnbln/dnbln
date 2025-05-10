@@ -1,13 +1,30 @@
 { pkgs, inputs, configurationRevision, ... }: {
   # List packages installed in system profile. To search by name, run:
   # $ nix-env -qaP | grep wget
-  nixpkgs.config.allowUnfree = true;
+  nixpkgs.config.allowUnfreePredicate = pkg: builtins.elem (pkgs.lib.getName pkg) [
+    "arc-browser"
+    "warp-terminal"
+    "signal-desktop-bin"
+    "discord"
+    "obsidian"
+    "spotify"
+  ];
 
   environment.systemPackages =
     [ pkgs.vim
       pkgs.neovim
       pkgs.git
+      pkgs.arc-browser
+      pkgs.warp-terminal
+      pkgs.signal-desktop-bin
+      pkgs.alire
+      pkgs.zotero
+      pkgs.discord
+      pkgs.obsidian
+      pkgs.spotify
     ];
+
+
 
   # Necessary for using flakes on this system.
   nix.enable = false;
