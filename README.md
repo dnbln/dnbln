@@ -9,9 +9,6 @@ My name is Dinu Blanovschi. Currently I am:
     - [λ](https://en.wikipedia.org/wiki/Programming_language_theory)
     - developer tooling
 - working on a programming language called [Narxia](https://github.com/dnbln/narxia).
-- winner of a couple of awards, most recently:
-    - [🥈](https://www.tudelft.nl/en/eemcs/current/ewinners#c1376497) in the [2nd edition of the AVR Challenge (2024)](https://avrchallenge.nl/).
-    - [🥈](https://github.com/JetbrainsColentinaTei/ColentinaAI) in the [JetBrains Academy AI Fest 2024](https://lp.jetbrains.com/ai-fest/).
 
 ## Projects
 
