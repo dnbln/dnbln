@@ -1,5 +1,10 @@
 {config, pkgs, ...}: {
-  programs.zsh.enable = true;
+  programs.zsh = {
+    enable = true;
+    initContent = ''
+    . "$HOME/.cargo/env"
+    '';
+  };
   home.stateVersion = "25.05";
 
   programs.home-manager.enable = true;
@@ -19,5 +24,11 @@
 
       init.defaultbranch = "trunk";
     };
+  };
+
+  programs.direnv = {
+    enable = true;
+    enableZshIntegration = true;
+    nix-direnv.enable = true;
   };
 }

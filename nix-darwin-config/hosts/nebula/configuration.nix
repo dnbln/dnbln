@@ -22,6 +22,15 @@
       pkgs.discord
       pkgs.obsidian
       pkgs.spotify
+      (pkgs.coq.override {
+        buildIde = true;
+      })
+      pkgs.rocq-core
+      pkgs.rocqPackages.stdlib
+      pkgs.opam
+      pkgs.clang
+      pkgs.gcc
+      pkgs.nodejs
     ];
 
 
