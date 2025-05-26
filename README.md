@@ -3,7 +3,6 @@
 My name is Dinu Blanovschi. Currently I am:
 
 - a 3rd year CSE student at the TU Delft.
-- doing my research project on formal verification in SPARK.
 - interested in:
     - [λ](https://en.wikipedia.org/wiki/Programming_language_theory)
     - developer tooling
