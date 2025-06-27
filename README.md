@@ -21,10 +21,13 @@ Some of my most recent open-source projects include:
 - **Rust**
 - Kotlin
 - C/C++
+- Ada
 - Java
-- Scala
 - Python
 - JS/TS
+
+## Publications
+- [My BSc thesis](https://resolver.tudelft.nl/uuid:18b4b3ef-da6e-4bc8-8b2b-01f9a874a5d7), where I explored formal verification in Ada/SPARK, with code available [here](https://github.com/dnbln/formalgorithms-code).
 
 ## Links & Contact
 
