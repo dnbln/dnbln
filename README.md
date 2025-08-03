@@ -13,6 +13,7 @@ My name is Dinu Blanovschi. Currently I am:
 Some of my most recent open-source projects include:
 
 - [Narxia](https://github.com/dnbln/narxia): a programming language
+- [dir-structure](https://github.com/dnbln/narxia/tree/trunk/dev/dir-structure): a library to map native Rust structures to file system directories.
 - [cargo-difftests](https://github.com/dnbln/cargo-difftests): an instrumentation-based selective regression testing tool for Rust projects
 - [upsilon](https://github.com/dnbln/upsilon): a self-hosted Git service, powered by Rust, with a SvelteKit frontend
 
