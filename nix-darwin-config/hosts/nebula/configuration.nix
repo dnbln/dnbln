@@ -31,6 +31,7 @@
       pkgs.clang
       pkgs.gcc
       pkgs.nodejs
+      pkgs.pv
     ];
 
 
