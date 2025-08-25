@@ -40,4 +40,4 @@ Some of my most recent open-source projects include:
 
 </p>
 
-![](https://komarev.com/ghpvc/?username=dnbln)
+[//]: ![](https://komarev.com/ghpvc/?username=dnbln)
