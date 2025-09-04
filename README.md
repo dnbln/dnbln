@@ -19,13 +19,17 @@ Some of my most recent open-source projects include:
 
 ## Programming languages
 
-- **Rust**
-- Kotlin
-- C/C++
-- Ada
-- Java
-- Python
-- JS/TS
+```mermaid
+pie title Relative usage of my top PLs
+    "Rust" : 122035
+    "C & C++" : 76164
+    "Java" : 45605
+    "Ada" : 11142
+    "Kotlin" : 5343
+    "Assembly" : 4383
+```
+
+Relative usage of my top programming languages in own projects, based on LoC.
 
 ## Links & Contact
 
