@@ -2,7 +2,7 @@
   # List packages installed in system profile. To search by name, run:
   # $ nix-env -qaP | grep wget
   nixpkgs.config.allowUnfreePredicate = pkg: builtins.elem (pkgs.lib.getName pkg) [
-    "arc-browser"
+    # "arc-browser"
     "warp-terminal"
     "signal-desktop-bin"
     "discord"
@@ -14,10 +14,8 @@
     [ pkgs.vim
       pkgs.neovim
       pkgs.git
-      pkgs.arc-browser
       pkgs.warp-terminal
       pkgs.signal-desktop-bin
-      pkgs.alire
       pkgs.zotero
       pkgs.discord
       pkgs.obsidian
@@ -25,13 +23,14 @@
       (pkgs.coq.override {
         buildIde = true;
       })
-      pkgs.rocq-core
-      pkgs.rocqPackages.stdlib
+      pkgs.coqPackages.stdlib
+      pkgs.coqPackages.vscoq-language-server
       pkgs.opam
       pkgs.clang
       pkgs.gcc
       pkgs.nodejs
       pkgs.pv
+      pkgs.ffmpeg
     ];
 
 
@@ -59,6 +58,8 @@
       screencapture.location = "~/Pictures/screenshots";
       screensaver.askForPasswordDelay = 10;
     };
+
+    primaryUser = "dinu";
   };
 
 
