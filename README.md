@@ -7,7 +7,7 @@ Hello! My name is Dinu Blanovschi. Currently I am:
     - [λ](https://en.wikipedia.org/wiki/Programming_language_theory)
     - developer tooling
 
-# Blog
+<BLG
 
 - [Looking back on 10 years of programming](https://dnbln.dev/blog/10y-of-programming)
 
