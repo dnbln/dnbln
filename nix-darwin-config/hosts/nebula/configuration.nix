@@ -7,7 +7,6 @@
     "signal-desktop-bin"
     "discord"
     "obsidian"
-    "spotify"
   ];
 
   environment.systemPackages =
@@ -19,7 +18,6 @@
       pkgs.zotero
       pkgs.discord
       pkgs.obsidian
-      pkgs.spotify
       (pkgs.coq.override {
         buildIde = true;
       })
@@ -31,7 +29,31 @@
       pkgs.nodejs
       pkgs.pv
       pkgs.ffmpeg
+      pkgs.gh
+      pkgs.graphviz
+      pkgs.python312
+      pkgs.python312Packages.pip
+      pkgs.texliveFull
+      pkgs.pandoc
+      pkgs.python312
+      pkgs.podman
+      pkgs.librsvg
+      pkgs.jupyter
+      pkgs.plantuml
     ];
+
+  services = {
+    postgresql = {
+      enable = true;
+      package = pkgs.postgresql_18;
+      dataDir = "/var/lib/postgresql";
+    };
+  };
+
+  launchd.user.agents.postgresql.serviceConfig = {
+    StandardErrorPath = "/tmp/postgres.error.log";
+    StandardOutPath = "/tmp/postgres.log";
+  };
 
 
 
