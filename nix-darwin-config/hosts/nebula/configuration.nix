@@ -42,21 +42,6 @@
       pkgs.plantuml
     ];
 
-  services = {
-    postgresql = {
-      enable = true;
-      package = pkgs.postgresql_18;
-      dataDir = "/var/lib/postgresql";
-    };
-  };
-
-  launchd.user.agents.postgresql.serviceConfig = {
-    StandardErrorPath = "/tmp/postgres.error.log";
-    StandardOutPath = "/tmp/postgres.log";
-  };
-
-
-
   # Necessary for using flakes on this system.
   nix.enable = false;
   nix.settings.experimental-features = "nix-command flakes";
